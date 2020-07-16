@@ -1,0 +1,56 @@
+*{
+
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main-header{
+
+  width: 100%;
+  height: 200px;
+  background-color: #20222f;
+  padding: 20px 110px;
+
+}
+
+/*este queda pendiente porque nose como hacer darkmode aun*/
+.header-conteiner-tittle{
+
+ display: flex;
+
+
+}
+
+.conteiner-tittle__h1{
+
+  font-size: 28px;
+  color: #fff;
+
+
+}
+
+.conteiner-tittle__h2{
+
+ font-size: 15px;
+ color: #939bc0;
+
+
+}
+
+.container-socialmedia-dashboard{
+
+ width: 100%;
+ height: 700px;
+ background-color: #1d2029;
+
+
+
+}
