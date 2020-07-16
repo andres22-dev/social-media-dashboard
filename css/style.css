@@ -48,9 +48,138 @@ body{
 .container-socialmedia-dashboard{
 
  width: 100%;
- height: 700px;
+ height: 800px;
  background-color: #1d2029;
 
 
+
+}
+.container-socialmedia-dashboard{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.socialmedia-dashboard-generalstatics{
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+
+}
+
+.socialmedia-dashboard-facebook{
+ 
+    width: 200px;
+    background-color: #252b43;
+    border-radius: 2px 2px 0px 0px;
+    border-top: 3px #1c8df5 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-right: 20px;
+    padding: 20px 20px;
+
+}
+
+.dashboard-facebook-username{
+
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 17px;
+
+
+}
+
+.dashboard-followers{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+
+
+
+.socialmedia-dashboard-twitter{
+
+    width: 200px;
+    background-color: #252b43;
+    border-radius: 2px 2px 0px 0px;
+    border-top: 3px #1c8df5 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 20px 20px;
+
+
+
+}
+
+
+
+/*estos selectores estan aplicados para varios elementos*/
+
+
+.socialmedia-username__all{
+
+    color: #8790bb;
+    display: inline-block;
+    padding-top: 5px;
+    margin-left: 7px;
+    font-size: 10px;
+
+
+
+}
+
+
+.dashboard-followers__number{
+ 
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+
+
+
+}
+
+.dashboard-followers__title{
+
+  color: #656c88;  
+  font-size: 14px;
+  
+
+}
+
+.dashboard-statistics__number{
+
+ margin-top: 20px;   
+ font-size: 13px;
+
+}
+
+
+.grew_up{
+
+    color: #2ea089;
+
+}
+
+.down{
+
+   color: #ba464f;
 
 }
