@@ -66,8 +66,7 @@ body{
     height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
- 
+
     
 
 }
@@ -75,6 +74,7 @@ body{
 .socialmedia-dashboard-facebook{
  
     width: 200px;
+    height: 200px;
     background-color: #252b43;
     border-radius: 2px 2px 0px 0px;
     border-top: 3px #1c8df5 solid;
@@ -114,6 +114,7 @@ body{
 .socialmedia-dashboard-twitter{
 
     width: 200px;
+    height: 200px;
     background-color: #252b43;
     border-radius: 2px 2px 0px 0px;
     border-top: 3px #1c8df5 solid;
@@ -123,6 +124,18 @@ body{
     flex-direction: column;
     margin-right: 20px;
     padding: 20px 20px;
+
+
+
+}
+
+
+.dashboard-twitter-username{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 17px;
 
 
 
