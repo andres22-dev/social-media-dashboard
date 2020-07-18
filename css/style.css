@@ -147,8 +147,8 @@ body{
   background-color: #252b43;
   border-radius: 2px 2px 0px 0px;
   border-top: 3px #f58a80 solid;
-  border-image-slice: 1;
   border-image: linear-gradient(90deg, #fbb96d,#f4897f,#de5490);
+  border-image-slice: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,12 +198,36 @@ padding: 20px 20px;
 .container-overview{
 
   width: 100%;
- height: 800px;
+  height: 400px;
   display: flex;
+  justify-content: center;
  
-  justify-content: space-around;
- 
+  flex-wrap: wrap;
+  
 }
+
+.container-overview-one{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+
+
+.container-overview-two{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+
+
 .overview-facebook-pageviews{
   width: 230px;
     height: 80px;
@@ -222,7 +246,7 @@ padding: 20px 20px;
 }
 /*estos selectores estan aplicados para varios elementos*/
 
-.overview-instalikes-pageviewss{
+.overview-instalikes-pageviews{
   width: 230px;
   height: 80px;
   background-color: #252b43;
@@ -236,6 +260,43 @@ padding: 20px 20px;
 
 
 }
+
+
+.overview-twiretweets-pageviews{
+
+  width: 230px;
+  height: 80px;
+  background-color: #252b43;
+
+}
+
+.overview-twitterlikes-pageviews{
+
+  width: 230px;
+  height: 80px;
+  background-color: #252b43;
+
+
+}
+
+.overview-youtubelikes-pageviews{
+
+  width: 230px;
+  height: 80px;
+  background-color: #252b43;
+
+
+
+}
+
+.overview-youtube-pageviews{
+  width: 230px;
+  height: 80px;
+  background-color: #252b43;
+
+}
+
+
 .socialmedia-username__all{
 
     color: #8790bb;
@@ -284,5 +345,11 @@ padding: 20px 20px;
 .down{
 
    color: #ba464f;
+
+}
+
+.space{
+
+  margin-right: 25px;
 
 }
