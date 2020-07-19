@@ -18,6 +18,7 @@ body{
   height: 200px;
   background-color: #20222f;
   padding: 20px 110px;
+  margin-bottom: 120px;
 
 }
 
@@ -33,6 +34,7 @@ body{
 
   font-size: 28px;
   color: #fff;
+  margin-left: 50px;
 
 
 }
@@ -41,6 +43,8 @@ body{
 
  font-size: 15px;
  color: #939bc0;
+ margin-bottom: 40px;
+ margin-left: 50px;
 
 
 }
@@ -52,12 +56,13 @@ body{
  height: 1000px;
  display: flex;
  flex-direction: column;
-
  background-color: #1d2029;
 
 
 
 }
+
+
 
 .socialmedia-dashboard-generalstatics{
 
@@ -66,13 +71,14 @@ body{
     display: flex;
     justify-content: center;  
    
+   
 
 }
 
 .socialmedia-dashboard-facebook{
  
-    width: 230px;
-    height: 200px;
+    width: 260px;
+    height: 210px;
     background-color: #252b43;
     border-radius: 2px 2px 0px 0px;
     border-top: 3px #1c8df5 solid;
@@ -108,8 +114,8 @@ body{
 
 .socialmedia-dashboard-twitter{
 
-    width: 230px;
-    height: 200px;
+    width: 260px;
+    height: 210px;
     background-color: #252b43;
     border-radius: 2px 2px 0px 0px;
     border-top: 3px #1c8df5 solid;
@@ -136,8 +142,8 @@ body{
 
 .socialmedia-dashboard-instagram{
 
-  width: 230px;
-  height: 200px;
+  width: 260px;
+  height: 210px;
   background-color: #252b43;
   border-radius: 2px 2px 0px 0px;
   border-top: 3px #f58a80 solid;
@@ -164,8 +170,8 @@ body{
 }
 
 .socialmedia-dashboard-youtube{
-width: 230px;
-height: 200px;
+  width: 260px;
+  height: 210px;
 background-color: #252b43;
 border-radius: 2px 2px 0px 0px;
 border-top: 3px #c1022b solid;
@@ -196,9 +202,21 @@ padding: 20px 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 60px;
   
 }
+
+.container-overview__subtitle{
+  width: 300;
+  margin-bottom: 20px;
+}
+
+.container-overview__subtitle h2{
+  width: 300px;
+  margin-left: 160px;
+  color: #fff;
+}
+
 
 .container-overview-one{
   width: 100%;
@@ -219,7 +237,7 @@ padding: 20px 20px;
 }
 
 .overview-facebook-pageviews{
-    width: 230px;
+    width: 270px;
     height: 100px;
     background-color: #252b43;
 
@@ -228,6 +246,7 @@ padding: 20px 20px;
 
 .posicion{
 
+ border-radius: 6px;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
@@ -251,7 +270,7 @@ justify-content: space-between;
 
 .overview-facelikes-pageviews{
 
-  width: 230px;
+  width: 270px;
   height: 100px;
   background-color: #252b43;
 }
@@ -259,14 +278,14 @@ justify-content: space-between;
 /*estos selectores estan aplicados para varios elementos*/
 
 .overview-instalikes-pageviews{
-  width: 230px;
+  width: 270px;
   height: 100px;
   background-color: #252b43;
 
 
 }
 .overview-instagram-pageviews{
-  width: 230px;
+  width: 270px;
   height: 100px;
   background-color: #252b43;
 
@@ -276,7 +295,7 @@ justify-content: space-between;
 
 .overview-twiretweets-pageviews{
 
-  width: 230px;
+  width: 270px;
   height: 100px;
   background-color: #252b43;
 
@@ -284,7 +303,7 @@ justify-content: space-between;
 
 .overview-twitterlikes-pageviews{
 
-  width: 230px;
+  width: 270px;
   height: 100px;
   background-color: #252b43;
 
@@ -293,7 +312,7 @@ justify-content: space-between;
 
 .overview-youtubelikes-pageviews{
 
-  width: 230px;
+  width: 270px;
   height: 100px;
   background-color: #252b43;
 
@@ -302,7 +321,7 @@ justify-content: space-between;
 }
 
 .overview-youtube-pageviews{
-  width: 230px;
+  width: 270px;
   height: 100px;
   background-color: #252b43;
 
@@ -335,7 +354,8 @@ justify-content: space-between;
 .dashboard-followers__title{
 
   color: #656c88;  
-  font-size: 14px;
+  font-size: 13px;
+  letter-spacing: 2px;
   
 
 }
@@ -351,18 +371,37 @@ justify-content: space-between;
 .grew_up{
 
     color: #2ea089;
+    font-size: 11px;
+    padding-top: 8px;
 
 }
 
 .down{
 
    color: #ba464f;
-
+   font-size: 11px;
+   padding-top: 8px;
 }
 
 .space{
 
   margin-right: 25px;
   margin-bottom: 20px;
+
+}
+
+.pageviews-titles__all{
+
+ color: #6b7493;
+ font-size: 12px;
+
+}
+
+.pageviews-number__all{
+
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+
 
 }
